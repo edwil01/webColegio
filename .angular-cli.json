@@ -19,9 +19,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../bower_components/material-design-lite/material.min.css",
+        "../bower_components/components-font-awesome/css/fontawesome-all.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../bower_components/material-design-lite/material.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
